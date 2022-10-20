@@ -42,26 +42,26 @@ namespace C_Shsarp_Beginners
     //Part 37 - C# Tutorial - Delegates usage in c#
     internal class Class21
     {
-        public static void Main()
-        {
-            List<Employee> employees = new List<Employee>();
+        //public static void Main()
+        //{
+        //    List<Employee> employees = new List<Employee>();
 
-            employees.Add(new Employee() { ID = 101, Name = "Khalid", Salary = 5000, Experience = 5 });
-            employees.Add(new Employee() { ID = 101, Name = "Mike", Salary = 4000, Experience = 4 });
-            employees.Add(new Employee() { ID = 101, Name = "John", Salary = 6000, Experience = 6 });
-            employees.Add(new Employee() { ID = 101, Name = "Todd", Salary = 3000, Experience = 3 });
-
-
-            //IsPromotable isPromotable = new IsPromotable(Promote);
-
-            //Employee.PromoteEmployee(employees, isPromotable);
-
-            //or 
+        //    employees.Add(new Employee() { ID = 101, Name = "Khalid", Salary = 5000, Experience = 5 });
+        //    employees.Add(new Employee() { ID = 101, Name = "Mike", Salary = 4000, Experience = 4 });
+        //    employees.Add(new Employee() { ID = 101, Name = "John", Salary = 6000, Experience = 6 });
+        //    employees.Add(new Employee() { ID = 101, Name = "Todd", Salary = 3000, Experience = 3 });
 
 
-            Employee.PromoteEmployee(employees, emp => emp.Experience >=5);
+        //    //IsPromotable isPromotable = new IsPromotable(Promote);
 
-        }
+        //    //Employee.PromoteEmployee(employees, isPromotable);
+
+        //    //or 
+
+
+        //    Employee.PromoteEmployee(employees, emp => emp.Experience >=5);
+
+        //}
 
         //public static bool Promote(Employee emp)
         //{
