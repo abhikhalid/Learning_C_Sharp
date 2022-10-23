@@ -57,6 +57,10 @@
     <Compile Include="Class20.cs" />
     <Compile Include="Class21.cs" />
     <Compile Include="Class22.cs" />
+    <Compile Include="Class25.cs" />
+    <Compile Include="Class26.cs" />
+    <Compile Include="Class27.cs" />
+    <Compile Include="Class28.cs" />
     <Compile Include="Class3.cs" />
     <Compile Include="Class4.cs" />
     <Compile Include="Class5.cs" />
