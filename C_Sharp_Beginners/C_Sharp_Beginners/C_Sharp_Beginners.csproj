@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="72-Rest\Class29.cs" />
+    <Compile Include="72-Rest\Class30.cs" />
+    <Compile Include="72-Rest\Class31.cs" />
+    <Compile Include="72-Rest\Class32.cs" />
+    <Compile Include="72-Rest\Class33.cs" />
+    <Compile Include="72-Rest\Class34.cs" />
+    <Compile Include="72-Rest\Class35.cs" />
     <Compile Include="Class10.cs" />
     <Compile Include="Class11.cs" />
     <Compile Include="Class12.cs" />
