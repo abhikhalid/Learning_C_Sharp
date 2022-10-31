@@ -13,12 +13,15 @@ namespace Assignment_01_Amanul_vaiya
             Console.WriteLine("Welcome to  Shape Calculator....\n");
             int choice;
 
+            List<Shape> shapeList = new List<Shape>();
+
             do
             {
                 Console.WriteLine("Press 1 to Calculate the area of a Rectange");
                 Console.WriteLine("Press 2 to Calculate the area of a Square");
                 Console.WriteLine("Press 3 to Calculate the area of a Circle");
-                Console.WriteLine("Press 4 to exit the program.....");
+                Console.WriteLine("Press 4 to display all shapes.");
+                Console.WriteLine("Press 5 to exit the program.....");
 
                 choice = int.Parse(Console.ReadLine());
 
@@ -35,27 +38,41 @@ namespace Assignment_01_Amanul_vaiya
                 {
                     shape = new Rectangle();
                     shape.Area();
-                    shape.Draw();
+                  
+                    shapeList.Add(shape);
                 }
                 //calculate the area of a square
                 else if (choice == 2)
                 {
                     shape = new Square();
                     shape.Area();
-                    shape.Draw();
+                  
+                    shapeList.Add(shape);
                 }
                 //calculate the area of a circle
                 else if (choice == 3)
                 {
                     shape = new Circle();
                     shape.Area();
-                    shape.Draw();
+                    
+                    shapeList.Add(shape);
+                }
+                // display all the shapes
+                else if(choice == 4)
+                {
+                    for(int i=0; i< shapeList.Count; i++)
+                    {
+                        shapeList[i].Draw();
+                    }
                 }
                
 
 
                 
-            }while(choice!=4);
+            }while(choice!=5);
+       
+            
+        
         }
     }
 }

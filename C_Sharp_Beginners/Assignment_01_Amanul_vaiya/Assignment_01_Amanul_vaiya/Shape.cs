@@ -11,5 +11,7 @@ namespace Assignment_01_Amanul_vaiya
         public abstract void Draw();
 
         public abstract void Area();
+
+
     }
 }

@@ -9,6 +9,7 @@ namespace Assignment_01_Amanul_vaiya
     internal class Circle : Shape
     {
         public float Radius { get; set; }
+        public float area { get; set; }
 
         public override void Area()
         {
@@ -16,13 +17,14 @@ namespace Assignment_01_Amanul_vaiya
 
             Radius = float.Parse(Console.ReadLine());
 
-            float area = 3.1416f * this.Radius * this.Radius;
+            area = 3.1416f * this.Radius * this.Radius;
 
-            Console.WriteLine("\nThe Area of a Circle is : {0}", area);  
+          
         }
         public override void Draw()
         {
             Console.WriteLine("Drawing a Cirlce with radius {0}\n",Radius);
+            Console.WriteLine("\nThe Area of a Circle is : {0}", area);
         }
     }
 }
