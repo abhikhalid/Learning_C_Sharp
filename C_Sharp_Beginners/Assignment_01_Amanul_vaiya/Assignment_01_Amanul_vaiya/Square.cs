@@ -15,12 +15,12 @@ namespace Assignment_01_Amanul_vaiya
 
             Length = float.Parse(Console.ReadLine());   
 
-            Console.WriteLine("Area of a square is : {0}\n", (this.Length * this.Length));
+            Console.WriteLine("\nArea of a square is : {0}", (this.Length * this.Length));
         }
 
         public override void Draw()
         {
-           
+            Console.WriteLine("Drawing a Square with the length of a side is : {0}\n",Length);
         }
     }
 }

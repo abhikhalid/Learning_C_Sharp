@@ -35,18 +35,21 @@ namespace Assignment_01_Amanul_vaiya
                 {
                     shape = new Rectangle();
                     shape.Area();
+                    shape.Draw();
                 }
                 //calculate the area of a square
                 else if (choice == 2)
                 {
                     shape = new Square();
                     shape.Area();
+                    shape.Draw();
                 }
                 //calculate the area of a circle
                 else if (choice == 3)
                 {
                     shape = new Circle();
                     shape.Area();
+                    shape.Draw();
                 }
                
 

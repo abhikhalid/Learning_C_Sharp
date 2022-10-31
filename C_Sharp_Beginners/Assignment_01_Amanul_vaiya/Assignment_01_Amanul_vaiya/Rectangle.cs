@@ -26,12 +26,13 @@ namespace Assignment_01_Amanul_vaiya
 
            float area = Length * Width;
 
-           Console.WriteLine("Area of a Rectange is : {0}\n", area);
+           Console.WriteLine("\nArea of a Rectange is : {0}", area);
         }
 
         public override void Draw()
         {
-            
+            Console.WriteLine("Drawing a Rectangle with Width {0} and Length {1}\n", Width, Length);
+
         }
     }
 }

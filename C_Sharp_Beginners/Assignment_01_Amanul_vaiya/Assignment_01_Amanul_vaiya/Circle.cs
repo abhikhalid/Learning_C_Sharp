@@ -18,11 +18,11 @@ namespace Assignment_01_Amanul_vaiya
 
             float area = 3.1416f * this.Radius * this.Radius;
 
-            Console.WriteLine("The Area of a Circle is : {0}\n", area);  
+            Console.WriteLine("\nThe Area of a Circle is : {0}", area);  
         }
         public override void Draw()
         {
-            
+            Console.WriteLine("Drawing a Cirlce with radius {0}\n",Radius);
         }
     }
 }
