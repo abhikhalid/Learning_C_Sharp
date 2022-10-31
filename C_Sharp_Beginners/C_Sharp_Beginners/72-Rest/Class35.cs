@@ -11,40 +11,40 @@ namespace C_Sharp_Begginners._72_Rest
 {
     internal class Class35
     {
-        public static void Main()
-        {
-            Customer customer1 = new Customer()
-            {
-                ID = 101,
-                Name = "Mark",
-                Salary = 4000,
-                Type = "RetailCustomer"
-            };
-            Customer customer2 = new Customer()
-            {
-                ID = 101,
-                Name = "Pam",
-                Salary = 7000,
-                Type = "RetailCustomer"
-            };
-            Customer customer3 = new Customer()
-            {
-                ID = 103,
-                Name = "Rob",
-                Salary = 5500,
-                Type = "RetailCustomer"
-            };
+        //public static void Main()
+        //{
+        //    Customer customer1 = new Customer()
+        //    {
+        //        ID = 101,
+        //        Name = "Mark",
+        //        Salary = 4000,
+        //        Type = "RetailCustomer"
+        //    };
+        //    Customer customer2 = new Customer()
+        //    {
+        //        ID = 101,
+        //        Name = "Pam",
+        //        Salary = 7000,
+        //        Type = "RetailCustomer"
+        //    };
+        //    Customer customer3 = new Customer()
+        //    {
+        //        ID = 103,
+        //        Name = "Rob",
+        //        Salary = 5500,
+        //        Type = "RetailCustomer"
+        //    };
 
-            List<Customer> listCustomers = new List<Customer>();
-            listCustomers.Add(customer1);
-            listCustomers.Add(customer2);
-            listCustomers.Add(customer3);
+        //    List<Customer> listCustomers = new List<Customer>();
+        //    listCustomers.Add(customer1);
+        //    listCustomers.Add(customer2);
+        //    listCustomers.Add(customer3);
 
-            listCustomers.Sort();
+        //    listCustomers.Sort();
 
 
 
-        }
+        //}
     }
 
     public class Customer:IComparable<Customer>

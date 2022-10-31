@@ -34,10 +34,10 @@ using System.IO;
 
 
 
-namespace C_Sharp_Beginners
-{
-    internal class Class22
-    {
+////namespace C_Sharp_Beginners
+////{
+    //internal class Class22
+    //{
         //public static void Main()
         //{
         //    //StreamReader streamReader = new StreamReader(@"C:\Users\BJIT\Documents\WorkSpace\C# Beginners\Learning_C_Sharp\C_Sharp_Beginners\C_Sharp_Beginners\Data.txt");
@@ -153,5 +153,5 @@ namespace C_Sharp_Beginners
 
         
 
-    }
-}
+//    }
+//}

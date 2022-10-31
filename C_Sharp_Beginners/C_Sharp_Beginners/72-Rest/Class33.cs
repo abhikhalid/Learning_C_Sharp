@@ -24,79 +24,79 @@ namespace C_Sharp_Beginners._72_Resstt
 {
     internal class Class33
     {
-        public static void Main()
-        {
-            Customer customer1 = new Customer()
-            {
-                ID = 101,
-                Name = "Mark",
-                Salary = 4000,
-                Type = "RetailCustomer"
-            };
-            Customer customer2 = new Customer()
-            {
-                ID = 101,
-                Name = "Pam",
-                Salary = 7000,
-                Type = "RetailCustomer"
-            };
-            Customer customer3 = new Customer()
-            {
-                ID = 103,
-                Name = "Rob",
-                Salary = 5500,
-                Type = "RetailCustomer"
-            }; 
-            Customer customer4 = new Customer()
-            {
-                ID = 104,
-                Name = "John",
-                Salary = 6500,
-                Type = "CorporateCustomer"
-            };
-            Customer customer5 = new Customer()
-            {
-                ID = 105,
-                Name = "Sam",
-                Salary = 3500,
-                Type = "CorporateCustomer"
-            };
+        //public static void Main()
+        //{
+        //    Customer customer1 = new Customer()
+        //    {
+        //        ID = 101,
+        //        Name = "Mark",
+        //        Salary = 4000,
+        //        Type = "RetailCustomer"
+        //    };
+        //    Customer customer2 = new Customer()
+        //    {
+        //        ID = 101,
+        //        Name = "Pam",
+        //        Salary = 7000,
+        //        Type = "RetailCustomer"
+        //    };
+        //    Customer customer3 = new Customer()
+        //    {
+        //        ID = 103,
+        //        Name = "Rob",
+        //        Salary = 5500,
+        //        Type = "RetailCustomer"
+        //    }; 
+        //    Customer customer4 = new Customer()
+        //    {
+        //        ID = 104,
+        //        Name = "John",
+        //        Salary = 6500,
+        //        Type = "CorporateCustomer"
+        //    };
+        //    Customer customer5 = new Customer()
+        //    {
+        //        ID = 105,
+        //        Name = "Sam",
+        //        Salary = 3500,
+        //        Type = "CorporateCustomer"
+        //    };
 
-            List<Customer> listCustomers = new List<Customer>();
-            listCustomers.Add(customer1);
-            listCustomers.Add(customer2);
-            listCustomers.Add(customer3);
+        //    List<Customer> listCustomers = new List<Customer>();
+        //    listCustomers.Add(customer1);
+        //    listCustomers.Add(customer2);
+        //    listCustomers.Add(customer3);
 
-            List<Customer> listCorporateCustomers = new List<Customer>();
-            listCorporateCustomers.Add(customer4);
-            listCorporateCustomers.Add(customer5);
-
-
-            //listCustomers.InsertRange(0, listCorporateCustomers);
-
-            //listCustomers.RemoveAll(x => x.Type == "CorporateCustomer");
-
-            //listCustomers.RemoveRange(3, 2);
+        //    List<Customer> listCorporateCustomers = new List<Customer>();
+        //    listCorporateCustomers.Add(customer4);
+        //    listCorporateCustomers.Add(customer5);
 
 
-            listCustomers.AddRange(listCorporateCustomers);
+        //    //listCustomers.InsertRange(0, listCorporateCustomers);
 
-            foreach(Customer c in listCustomers)
-            {
-                Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}, Type ={3}",c.ID,c.Name,c.Salary,c.Type);
-            }
+        //    //listCustomers.RemoveAll(x => x.Type == "CorporateCustomer");
 
-           Customer cs =  listCustomers[0];
+        //    //listCustomers.RemoveRange(3, 2);
 
-           List<Customer> customers = listCustomers.GetRange(3, 2);
+
+        //    listCustomers.AddRange(listCorporateCustomers);
+
+        //    foreach(Customer c in listCustomers)
+        //    {
+        //        Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}, Type ={3}",c.ID,c.Name,c.Salary,c.Type);
+        //    }
+
+        //   Customer cs =  listCustomers[0];
+
+        //   List<Customer> customers = listCustomers.GetRange(3, 2);
     
-           foreach(Customer c in customers)
-            {
-                Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}, Type ={3}", c.ID, c.Name, c.Salary, c.Type);
+        //   foreach(Customer c in customers)
+        //    {
+        //        Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}, Type ={3}", c.ID, c.Name, c.Salary, c.Type);
 
-            }
+        //    }
 
-        }
+        //}
 
     }
 

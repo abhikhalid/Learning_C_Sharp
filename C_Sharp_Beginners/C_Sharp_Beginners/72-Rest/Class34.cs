@@ -31,65 +31,65 @@ namespace C_Sharp_Beginners._72_Rest
 {
     internal class Class34
     {
-        public static void Main()
-        {
-            List<int> numbers = new List<int> { 1, 8, 7, 5, 2, 3, 4,9,6 };
+        //public static void Main()
+        //{
+        //    List<int> numbers = new List<int> { 1, 8, 7, 5, 2, 3, 4,9,6 };
 
-            Console.WriteLine("Numbers before sorting");
+        //    Console.WriteLine("Numbers before sorting");
 
-            foreach(int number in numbers)
-            {
-                Console.WriteLine(number);
-            }
+        //    foreach(int number in numbers)
+        //    {
+        //        Console.WriteLine(number);
+        //    }
 
-            numbers.Sort();
+        //    numbers.Sort();
 
-            Console.WriteLine("Numbers after sorting");
+        //    Console.WriteLine("Numbers after sorting");
 
-            foreach(int number in numbers)
-            {
-                Console.WriteLine(number);
-            }
+        //    foreach(int number in numbers)
+        //    {
+        //        Console.WriteLine(number);
+        //    }
 
-            numbers.Reverse();
+        //    numbers.Reverse();
 
-            Console.WriteLine("Numbers in descending order");
+        //    Console.WriteLine("Numbers in descending order");
 
-            foreach (int number in numbers)
-            {
-                Console.WriteLine(number);
-            }
+        //    foreach (int number in numbers)
+        //    {
+        //        Console.WriteLine(number);
+        //    }
 
-            List<string> alphabets = new List<string> { "B","F","D","E","A","C"};
+        //    List<string> alphabets = new List<string> { "B","F","D","E","A","C"};
 
-            Console.WriteLine("Alphabets before sorting");
+        //    Console.WriteLine("Alphabets before sorting");
 
-            foreach(string alphabet in alphabets)
-            {
-                Console.WriteLine(alphabet);
-            }
+        //    foreach(string alphabet in alphabets)
+        //    {
+        //        Console.WriteLine(alphabet);
+        //    }
 
-            alphabets.Sort();
+        //    alphabets.Sort();
 
-            Console.WriteLine("Alphabets after sorting");
+        //    Console.WriteLine("Alphabets after sorting");
 
-            foreach (string alphabet in alphabets)
-            {
-                Console.WriteLine(alphabet);
-            }
+        //    foreach (string alphabet in alphabets)
+        //    {
+        //        Console.WriteLine(alphabet);
+        //    }
 
-            alphabets.Reverse();
+        //    alphabets.Reverse();
 
-            Console.WriteLine("Alphabets in descending order");
+        //    Console.WriteLine("Alphabets in descending order");
 
-            foreach (string alphabet in alphabets)
-            {
-                Console.WriteLine(alphabet);
-            }
-
-
+        //    foreach (string alphabet in alphabets)
+        //    {
+        //        Console.WriteLine(alphabet);
+        //    }
 
 
-        }
+
+
+        //}
     }
 }
