@@ -11,6 +11,7 @@ namespace Assignment_01_Amanul_vaiya
         public float Length { get; set; }
 
         public float Width { get; set; }
+        public float area { get; set; }
 
         public override void Area()
         {
@@ -24,7 +25,7 @@ namespace Assignment_01_Amanul_vaiya
            Width = float.Parse(Console.ReadLine());
 
 
-           float area = Length * Width;
+            area = Length * Width;
 
            
         }
