@@ -41,10 +41,16 @@ namespace C_Sharp_Begginners._72_Rest
         //    listCustomers.Add(customer3);
 
         //    listCustomers.Sort();
-
-
-
         //}
+
+    }
+
+    public class SortByName : IComparer<Customer>
+    {
+        public int Compare(Customer x,Customer y)
+        {
+            return x.Name.CompareTo(y.Name);
+        }
     }
 
     public class Customer:IComparable<Customer>

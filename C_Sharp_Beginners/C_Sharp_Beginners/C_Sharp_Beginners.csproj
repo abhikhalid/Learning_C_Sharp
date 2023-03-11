@@ -50,6 +50,9 @@
     <Compile Include="72-Rest\Class33.cs" />
     <Compile Include="72-Rest\Class34.cs" />
     <Compile Include="72-Rest\Class35.cs" />
+    <Compile Include="72-Rest\Class36.cs" />
+    <Compile Include="72-Rest\Class37.cs" />
+    <Compile Include="72-Rest\Class38.cs" />
     <Compile Include="Class10.cs" />
     <Compile Include="Class11.cs" />
     <Compile Include="Class12.cs" />
