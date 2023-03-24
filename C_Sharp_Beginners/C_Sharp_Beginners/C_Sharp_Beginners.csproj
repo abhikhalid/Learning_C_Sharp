@@ -50,6 +50,9 @@
     <Compile Include="72-Rest\Class33.cs" />
     <Compile Include="72-Rest\Class34.cs" />
     <Compile Include="72-Rest\Class35.cs" />
+    <Compile Include="72-Rest\Class36.cs" />
+    <Compile Include="72-Rest\Class37.cs" />
+    <Compile Include="72-Rest\Stack.cs" />
     <Compile Include="Class10.cs" />
     <Compile Include="Class11.cs" />
     <Compile Include="Class12.cs" />
@@ -84,6 +87,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="72-Rest\Part86.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
